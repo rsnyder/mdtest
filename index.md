@@ -1,4 +1,8 @@
-# mdtest
+---
+layout: default
+title: Jekyll Website Template
+list_title: 
+---
 
 `test`
 - list item 1

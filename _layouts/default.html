@@ -1,9 +1,7 @@
 <!doctype html>
-<base href="{{site.baseurl}}{{page.dir}}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/index.css" />
 <main>{{ content }}</main>
 <script>
-  const main = document.querySelector('main')
-  console.log(main)
+    const main = document.querySelector('main')
+    main.innerHTML = main.innerHTML.replace(/<\/code><\/p>\s+<ul>/, '</code></p><ul data style="display:none;">')
 </script>
